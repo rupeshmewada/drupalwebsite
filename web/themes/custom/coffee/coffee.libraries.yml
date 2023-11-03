@@ -1,0 +1,35 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      # '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css': { type: external}
+      # '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css': { type: external}
+      # assets/css/style.css: {}
+      # assets/css/mobile.css: {}
+      # css/font-awesome.css: {}
+      css/bootstrap.min.css: {}
+      css/style.css: {}
+      css/responsive.css: {}
+      css/jquery.mCustomScrollbar.min.css: {}
+      #  images/fevicon.png" "image/gif" />
+      # '//fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap': { type: external}
+      # 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css': { type: external}
+
+
+global-script:
+  js:
+    js/jquery.min.js: {}
+    js/popper.min.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/jquery-3.0.0.min.js: {}
+    js/plugin.js: {}
+    js/jquery.mCustomScrollbar.concat.min.js: {}
+    js/custom.js: {}
+
+    # '//maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js': { type: external}
+    # '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js': { type: external}
+    # '//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js': { type: external}
+    # js/custom.js: {}
+  dependencies:
+    - core/jquery 
+    - core/drupal
